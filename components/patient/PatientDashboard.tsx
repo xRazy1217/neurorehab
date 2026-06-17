@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import CircularProgress from '@/components/ui/CircularProgress'
 import AreaCard from '@/components/patient/AreaCard'
 import Link from 'next/link'
@@ -83,9 +84,18 @@ export default function PatientDashboard({
       {/* Header */}
       <header className="bg-primary px-5 pt-12 pb-6">
         <div className="flex items-start justify-between">
-          <div>
-            <h1 className="text-[22px] font-bold text-white">{greeting}</h1>
-            <p className="text-white/70 text-sm mt-0.5">{sub}</p>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/icons/logo.png"
+              alt="NeuroRehab"
+              width={40}
+              height={40}
+              className="rounded-xl"
+            />
+            <div>
+              <h1 className="text-[22px] font-bold text-white">{greeting}</h1>
+              <p className="text-white/70 text-sm mt-0.5">{sub}</p>
+            </div>
           </div>
           <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center mt-1">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
