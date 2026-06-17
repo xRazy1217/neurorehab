@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="114" fill="#7F77DD"/>
+  
+  <!-- Brain outline simplified -->
+  <path d="M180 160 C140 160 110 190 110 230 C110 255 122 277 141 291 L128 380 L185 358 L256 380 L327 358 L384 380 L371 291 C390 277 402 255 402 230 C402 190 372 160 332 160 C318 145 298 136 276 136 C265 136 254 138 244 143 C234 138 222 136 210 136 C196 136 180 145 180 160 Z" fill="white" opacity="0.95"/>
+  
+  <!-- Left hemisphere detail -->
+  <path d="M180 160 C155 165 135 185 130 210" stroke="#7F77DD" strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.4"/>
+  <path d="M145 240 C148 260 158 278 172 290" stroke="#7F77DD" strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.4"/>
+  
+  <!-- Right hemisphere detail -->
+  <path d="M332 160 C357 165 377 185 382 210" stroke="#7F77DD" strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.4"/>
+  <path d="M367 240 C364 260 354 278 340 290" stroke="#7F77DD" strokeWidth="8" strokeLinecap="round" fill="none" opacity="0.4"/>
+  
+  <!-- Center divider -->
+  <path d="M256 145 L256 295" stroke="#7F77DD" strokeWidth="6" strokeLinecap="round" fill="none" opacity="0.3"/>
+  
+  <!-- Cross/plus heart accent -->
+  <circle cx="256" cy="230" r="22" fill="#534AB7"/>
+  <path d="M256 215 L256 245 M241 230 L271 230" stroke="white" strokeWidth="6" strokeLinecap="round"/>
+</svg>
